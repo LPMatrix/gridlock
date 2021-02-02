@@ -1,0 +1,95 @@
+body{
+    font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    border-bottom: 1px dashed #000;
+    font-size: 4rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container{
+    width: 90vw;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+
+.grid-container{
+    display: inline-grid;
+    margin-top: 3rem;
+    gap: 13rem;
+    grid-auto-flow: column;
+}
+
+.grid-item{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1rem;
+}
+
+.grid-item a{
+    text-decoration: none;
+    color: #000;
+}
+.grid-container .grid-item a:hover{
+    text-decoration: underline;
+}
+.sub{
+    font-size: 4rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+    margin-top: 1rem; 
+}
+.grid-11{
+    display: inline-grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+}
+
+.mason{
+    background-color: #D2EDF9;
+}
+
+.mason-1{
+    height: 301px;
+    width: 290px;
+}
+
+.grid-12{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.mason-12{
+    height: 301px;
+}
+.full{
+    grid-column-start: 1;
+    grid-column-end:   4;
+    height: 199px;
+}
+
+.grid-1-3{
+    display: grid;
+    gap: 1.5rem;
+    margin: 0 auto;
+}
+
+
+.box-1-3{
+    height: 184px;
+}
+.box-1-3.side{
+    height: 184px;
+}
