@@ -59,18 +59,15 @@ body{
 .mason{
     background-color: #D2EDF9;
 }
-
 .mason-1{
     height: 301px;
     width: 290px;
 }
-
 .grid-12{
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 2fr 1fr;
 }
-
 .mason-12{
     height: 301px;
 }
@@ -79,17 +76,16 @@ body{
     grid-column-end:   4;
     height: 199px;
 }
-
-.grid-1-3{
+.grid-13{
     display: grid;
-    gap: 1.5rem;
-    margin: 0 auto;
+    gap: 1rem;
+    grid-template-columns: 2fr 1fr 1fr;
 }
-
-
-.box-1-3{
-    height: 184px;
+.side{
+    height: 487px !important;
+    grid-row-start: 1;
+    grid-row-end:   4;
 }
-.box-1-3.side{
-    height: 184px;
+.mason-13{
+    height: 232px;
 }
